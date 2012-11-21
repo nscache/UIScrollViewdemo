@@ -16,6 +16,9 @@
 		23A26532162E6D770015FBCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A26531162E6D770015FBCE /* ViewController.m */; };
 		23A26535162E6D770015FBCE /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23A26533162E6D770015FBCE /* ViewController_iPhone.xib */; };
 		23A26538162E6D770015FBCE /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23A26536162E6D770015FBCE /* ViewController_iPad.xib */; };
+		75E005F216314389004EB0F2 /* ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E005F116314389004EB0F2 /* ok.png */; };
+		75E005F616314797004EB0F2 /* ok1.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E005F416314797004EB0F2 /* ok1.png */; };
+		75E005F716314797004EB0F2 /* ok2.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E005F516314797004EB0F2 /* ok2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		23A26531162E6D770015FBCE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		23A26534162E6D770015FBCE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		23A26537162E6D770015FBCE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		75E005F116314389004EB0F2 /* ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ok.png; sourceTree = "<group>"; };
+		75E005F416314797004EB0F2 /* ok1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ok1.png; sourceTree = "<group>"; };
+		75E005F516314797004EB0F2 /* ok2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ok2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,9 @@
 		23A2650F162E6D770015FBCE = {
 			isa = PBXGroup;
 			children = (
+				75E005F416314797004EB0F2 /* ok1.png */,
+				75E005F516314797004EB0F2 /* ok2.png */,
+				75E005F116314389004EB0F2 /* ok.png */,
 				23A26524162E6D770015FBCE /* UIScrollView */,
 				23A2651D162E6D770015FBCE /* Frameworks */,
 				23A2651B162E6D770015FBCE /* Products */,
@@ -155,6 +164,9 @@
 				23A26529162E6D770015FBCE /* InfoPlist.strings in Resources */,
 				23A26535162E6D770015FBCE /* ViewController_iPhone.xib in Resources */,
 				23A26538162E6D770015FBCE /* ViewController_iPad.xib in Resources */,
+				75E005F216314389004EB0F2 /* ok.png in Resources */,
+				75E005F616314797004EB0F2 /* ok1.png in Resources */,
+				75E005F716314797004EB0F2 /* ok2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +303,7 @@
 				23A2653D162E6D770015FBCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

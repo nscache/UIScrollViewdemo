@@ -6,13 +6,13 @@
 //  Copyright (c) 2012年 niko. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "sltViewController.h"
 
-@interface ViewController ()
+@interface sltViewController ()
 
 @end
 
-@implementation ViewController
+@implementation sltViewController
 
 - (void)viewDidLoad
 {
@@ -29,7 +29,7 @@
     NSArray *imgs = [NSArray arrayWithObjects:img,img1,img2, nil];
     
 
-    for(int i=0;i<25;i++)
+    for(int i=0;i<3;i++)
     
     {
 //        NSLog(@"%d%%3  %d",i,i%3);
@@ -37,7 +37,7 @@
         //排版
         
         CGRect rect;
-        rect = CGRectMake(0+(i%4*80),0+(i/4)*85, 75, 85);
+        rect = CGRectMake(0+(i%4*80),0+(i/4)*85, 80, 85);
         UIButton *button = [[UIButton buttonWithType:UIButtonTypeCustom]retain];
 //        UIImage *img = [UIImage imageNamed:@"ok"];
 
@@ -47,7 +47,7 @@
         button.tag = i;
         
         
-        [button setImage:[imgs objectAtIndex:0] forState:UIControlStateNormal];
+        [button setImage:[imgs objectAtIndex:i] forState:UIControlStateNormal];
 
         //        [button setImage:[UIImage imageWithContentsOfFile:[[NSBundle mainBundle]pathForResource:singleBook.icon ofType:nil]] forState:UIControlStateNormal];
         //        [button addTarget:self action:@selector(doReadBook:) forControlEvents:UIControlEventTouchUpInside];
